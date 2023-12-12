@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.presentation.PrimaryController">
+   <children>
+      <HBox prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="32.0" prefWidth="50.0" />
+            <HBox prefWidth="589.0">
+               <children>
+                  <Button fx:id="newPerson" mnemonicParsing="false" onAction="#switchToAddNewPerson" text="New Person">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="newProduction" mnemonicParsing="false" onAction="#switchToAddNewProduction" text="New Produktion">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="editPerson" mnemonicParsing="false" onAction="#switchToEditPerson" text="Edit Person">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="editProduction" mnemonicParsing="false" onAction="#switchToEditProduction" text="Edit Produktion">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="addCredit" mnemonicParsing="false" onAction="#switchToAddCredit" text="Add Credit">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="editCredit" mnemonicParsing="false" onAction="#switchToEditCredit" text="Edit Credit">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="32.0" prefWidth="50.0" />
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="10.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="32.0" prefWidth="50.0" />
+            <HBox prefHeight="500000.0" prefWidth="590.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="23.0" text="ID" />
+                  <TextField fx:id="idSearch" />
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="32.0" prefWidth="50.0" />
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="10.0" prefWidth="600.0">
+         <children>
+            <AnchorPane minHeight="-Infinity" prefHeight="24.0" prefWidth="50.0" />
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

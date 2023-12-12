@@ -1,1 +1,2 @@
-# Project-semester-2
+
+# Semester Software Technology Project
